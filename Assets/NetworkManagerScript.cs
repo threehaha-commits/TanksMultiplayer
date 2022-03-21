@@ -38,12 +38,16 @@ public class NetworkManagerScript : MonoBehaviourPunCallbacks
         buttons[1].SetActive(false);
         float r = Random.Range(-1f, 1f);
         GameObject player = PhotonNetwork.Instantiate(Player.name, new Vector3(r, r, 0f), Quaternion.identity);
-        player.name = player.name + Player.GetComponent<PhotonView>().ViewID;
         int i = PhotonNetwork.CountOfPlayersInRooms;
-        if(i % 2 == 1)
-            player.GetComponent<Health>().right = true;
+        print($"i {i} i%2 {i % 2}");
+        if (i % 2 == 1)
+        {
+            player.GetComponent<PhotonView>().RPC("SetProperties", RpcTarget.AllBuffered, false);
+        }
         else
-            player.GetComponent<Health>().left = true;
+        {
+            player.GetComponent<PhotonView>().RPC("SetProperties", RpcTarget.AllBuffered, true);
+        }
         Destroy(gameObject);
     }
 }

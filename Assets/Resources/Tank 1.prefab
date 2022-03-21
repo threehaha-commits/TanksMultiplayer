@@ -153,6 +153,7 @@ MonoBehaviour:
   right: 0
   Hp: 100
   txt: {fileID: 0}
+  txtScore: 
 --- !u!114 &635261093582375486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +194,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
+  - {fileID: -8642015644641845269}
   - {fileID: 635261093582375486}
   - {fileID: -5809162723286906748}
   sceneViewId: 0

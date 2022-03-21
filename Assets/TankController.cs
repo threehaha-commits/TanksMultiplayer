@@ -25,6 +25,10 @@ public class TankController : MonoBehaviour, IPunObservable
         myTransform = transform;
         r2d = GetComponent<Rigidbody2D>();
         photonView = GetComponent<PhotonView>();
+    }
+
+    private void OnEnable()
+    {
         StartCoroutine(FireController());
     }
 
@@ -58,7 +62,8 @@ public class TankController : MonoBehaviour, IPunObservable
 
     IEnumerator FireController()
     {
-        while(true)
+        yield return new WaitForSeconds(1f);
+        while (true)
         {
             if (photonView.IsMine)
             {
@@ -74,7 +79,7 @@ public class TankController : MonoBehaviour, IPunObservable
                         transform.rotation = rotation;
                         yield return new WaitForSeconds(0.25f);
                         GameObject bullet = PhotonNetwork.Instantiate(Bullet.name, BulletSpawnPosition.position, rotation);
-                        bullet.GetComponent<Rigidbody2D>().AddForce(v2 * bulletSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                        bullet.GetComponent<Rigidbody2D>().AddForce(v2 * (bulletSpeed / 2 ) * Time.deltaTime, ForceMode2D.Impulse);
                     }
                 }
             }

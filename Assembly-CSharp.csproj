@@ -67,6 +67,7 @@
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Import\ParrelSync\ParrelSync-master\Examples\CustomArgumentExample.cs" />
     <Compile Include="Assets\BulletController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\TankController.cs" />
@@ -82,6 +83,7 @@
      <None Include="Assets\Import\Main Sprites\Spritesheet\allSprites_default.xml" />
      <None Include="Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
      <None Include="Assets\Import\Main Sprites\License.txt" />
+     <None Include="Assets\Import\ParrelSync\ParrelSync-master\VERSION.txt" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
@@ -829,6 +831,10 @@
     <ProjectReference Include="PhotonUnityNetworking.csproj">
       <Project>{94AECE8E-5930-B0DB-19F3-F58B7F04D4F2}</Project>
       <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParrelSync.csproj">
+      <Project>{072603DE-1103-B85B-F12C-B3C348E13297}</Project>
+      <Name>ParrelSync</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
       <Project>{E5343B5D-611B-058C-C5F4-A2AC39EE1CDD}</Project>
