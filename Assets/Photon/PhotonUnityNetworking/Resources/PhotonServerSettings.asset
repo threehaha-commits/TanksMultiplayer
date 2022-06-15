@@ -45,6 +45,16 @@ MonoBehaviour:
   - Respawn
   - GetDamge
   - SetProperties
+  - SetPosition
+  - SetPlayerProperties
+  - SetPlayerSprite
+  - Timer
+  - StartRound
+  - RoundIsEnd
+  - Spawn
+  - DeactiveBullets
+  - ActiveBulletFromStack
+  - BulletOff
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1
   DevRegionSetOnce: 1

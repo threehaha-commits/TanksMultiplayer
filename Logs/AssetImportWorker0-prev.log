@@ -1,0 +1,1959 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.3f1 (4bef613afd59) revision 4976481'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1706; Version 2009; 64bit' Language: 'ru' Physical Memory: 16349 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programms\Unity\2021.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/MyProjects/newProject/Tanks of War
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61487
+Successfully changed project path to: D:/MyProjects/newProject/Tanks of War
+D:/MyProjects/newProject/Tanks of War
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 151.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path D:/Programms/Unity/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/MyProjects/newProject/Tanks of War/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'D:/Programms/Unity/2021.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programms/Unity/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programms/Unity/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programms/Unity/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001014 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 216.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.882 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4173.
+Total: 2.843000 ms (FindLiveObjects: 0.457000 ms CreateObjectMapping: 0.361800 ms MarkObjects: 1.943700 ms  DeleteObjects: 0.078600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.deps.json
+  artifactKey: Guid(a966b98b651e18748abf2829786b5899) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.deps.json using Guid(a966b98b651e18748abf2829786b5899) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '347990aa7fe1a8308fafb1939821367d') in 0.217752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankRed_barrel3.png
+  artifactKey: Guid(f869cb00d19ecc844bde56e8dd890d01) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankRed_barrel3.png using Guid(f869cb00d19ecc844bde56e8dd890d01) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7d4a8409b5ede197cae4f1e0de27fb2e') in 0.099792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/GameVersionProperty.cs
+  artifactKey: Guid(d5168ef825c3e4b74aff060ca5c07cc1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/GameVersionProperty.cs using Guid(d5168ef825c3e4b74aff060ca5c07cc1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd0c754c516305d4981822420228489f3') in 0.082489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat
+  artifactKey: Guid(fb6c12085a6b0a5429029fcd6478a816) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat using Guid(fb6c12085a6b0a5429029fcd6478a816) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '01b1c1469a0abc1c6cac6c39d9481855') in 0.017100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/treeBrown_small.png
+  artifactKey: Guid(d6824db4a35cc5d4e8c1fe78e681ffb4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/treeBrown_small.png using Guid(d6824db4a35cc5d4e8c1fe78e681ffb4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c761e86a72322b8dfe29538e6f277a40') in 0.041805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 3.unity
+  artifactKey: Guid(e07afcca5bf1a41f5bd28f498656b7b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 3.unity using Guid(e07afcca5bf1a41f5bd28f498656b7b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '73659d2ed0a56a8bc1807ae392aaff76') in 0.013845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef
+  artifactKey: Guid(a738238285a7a8246af046cbf977522f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef using Guid(a738238285a7a8246af046cbf977522f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c3acdd41245be00f88aa62db16427f06') in 0.014941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadTransitionE_dirt.png
+  artifactKey: Guid(02717a573ef19734996eff1115968a70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadTransitionE_dirt.png using Guid(02717a573ef19734996eff1115968a70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'edea8c2c41b1e44ad359d46c31201422') in 0.028999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel2_outline.png
+  artifactKey: Guid(edd96d5a878ca81488aff10f042b46e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel2_outline.png using Guid(edd96d5a878ca81488aff10f042b46e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a4dfe9abd73f73590652b9a90dfae7f5') in 0.019638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_sand_outline.png
+  artifactKey: Guid(29d3e59beece4f5429b364ee79c49738) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_sand_outline.png using Guid(29d3e59beece4f5429b364ee79c49738) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f63a8d78117f2085f424f9ff2ac5fee4') in 0.038667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBlue_barrel3_outline.png
+  artifactKey: Guid(f4153e0a2dcf96d49a2209590ecea5f1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBlue_barrel3_outline.png using Guid(f4153e0a2dcf96d49a2209590ecea5f1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b1d25f370b755ca7665c9fac025efbff') in 0.016664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankBody_bigRed_outline.png
+  artifactKey: Guid(9ede03a95e119064a801c6fe49b10da0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankBody_bigRed_outline.png using Guid(9ede03a95e119064a801c6fe49b10da0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '70e6d25a9d4b2a48585cef73bd9f0de3') in 0.030273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b061751b4b365ef146c15aebed078ca4') in 0.011475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 2.unity
+  artifactKey: Guid(764428c63577f4580af4ce54ca9f4b1b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 2.unity using Guid(764428c63577f4580af4ce54ca9f4b1b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c3020ab0805eba6b14b0f5a8851df41a') in 0.020731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/shotLarge.png
+  artifactKey: Guid(630ce1893146da147ac61d9f1105b1a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/shotLarge.png using Guid(630ce1893146da147ac61d9f1105b1a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5881fcb4631927f26f04f66810785d3f') in 0.019795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_red.png
+  artifactKey: Guid(aaf1419e266cf1449a1427c567341a9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_red.png using Guid(aaf1419e266cf1449a1427c567341a9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '358eba47a3dd8539b01d53333d0285c7') in 0.027564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Import/ParrelSync/ParrelSync-master/README.md
+  artifactKey: Guid(fa3f2fa6aced9b54b970c8996957df3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/ParrelSync/ParrelSync-master/README.md using Guid(fa3f2fa6aced9b54b970c8996957df3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a712b98587a0fa7244f2aa5f2f4c3aea') in 0.029135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankRed_barrel1_outline.png
+  artifactKey: Guid(1984f23ccf601ba4c84abbe21fd0f937) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankRed_barrel1_outline.png using Guid(1984f23ccf601ba4c84abbe21fd0f937) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c7ee927b58171df3f64381537ee5d737') in 0.020106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Import/Main Sprites/License.txt
+  artifactKey: Guid(579a606df42fa4b41b45770d774bd54b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/License.txt using Guid(579a606df42fa4b41b45770d774bd54b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '81100ff091477218fc293d239f2ccefc') in 0.037805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+  artifactKey: Guid(436c5e63723127948af8857e903f658a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png using Guid(436c5e63723127948af8857e903f658a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '88e42bbf93d99d3a993d7683ea6dfe38') in 0.047194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileSand_roadCrossingRound.png
+  artifactKey: Guid(15a77509928260d40a0aa9aaf3ba7a79) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileSand_roadCrossingRound.png using Guid(15a77509928260d40a0aa9aaf3ba7a79) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'db03a88f514571c10ba61b072209b4f8') in 0.021204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Import/Main Sprites/Sample.png
+  artifactKey: Guid(bd32745a0f2d5a0469fe67e6ca9b6139) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Sample.png using Guid(bd32745a0f2d5a0469fe67e6ca9b6139) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5913044f0c3a24132bd3bc808d4f583e') in 0.037931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel1_outline.png
+  artifactKey: Guid(0c7e3a39163f7a04db55cf9385083fe9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel1_outline.png using Guid(0c7e3a39163f7a04db55cf9385083fe9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '485fd7fc15c21d792ac45dedf10a8ca4') in 0.019333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Import/ParrelSync/ParrelSync-master/Images/ScreenShot 2.png
+  artifactKey: Guid(e7b08aac7381fd442a4530d395b9a5df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/ParrelSync/ParrelSync-master/Images/ScreenShot 2.png using Guid(e7b08aac7381fd442a4530d395b9a5df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f82e414a22434a7ddeb701e39c58adbc') in 0.037607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs
+  artifactKey: Guid(696a5174ff5e707479b3540eb56d14b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs using Guid(696a5174ff5e707479b3540eb56d14b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '367ee4ccb221ad17d676223e4707b09f') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/PlayerListEntry.cs
+  artifactKey: Guid(6b92420fa27b32d43a6a35af7781c5d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/PlayerListEntry.cs using Guid(6b92420fa27b32d43a6a35af7781c5d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '93544a9a53b88a640dbd57c124183893') in 0.014174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat
+  artifactKey: Guid(968fc57e6928a5448ae7d0644246d534) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat using Guid(968fc57e6928a5448ae7d0644246d534) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bcbb6cb0770aaec3a37385f04c08e3e1') in 0.022695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel3.png
+  artifactKey: Guid(49a4684f8b22bb444aac6a34de0d9d6d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel3.png using Guid(49a4684f8b22bb444aac6a34de0d9d6d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e0327e4bc740b7de34df5ee6b2bd5390') in 0.016719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_16.asset
+  artifactKey: Guid(f0ffaf43a593dcd40b47905a9d470daa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_16.asset using Guid(f0ffaf43a593dcd40b47905a9d470daa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '070778afc1805e7cbec003062c2b224a') in 0.043570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/bulletSand1.png
+  artifactKey: Guid(5d84a7c456c674047960ebe410120761) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/bulletSand1.png using Guid(5d84a7c456c674047960ebe410120761) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9561d8273bfa6e92674eaa567dddace6') in 0.036985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_28.asset
+  artifactKey: Guid(d3d6f2e61890af646beb9d8e86b9d8c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_28.asset using Guid(d3d6f2e61890af646beb9d8e86b9d8c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '718cd6d158758f33ee25cd83fd5c48a0') in 0.040275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs
+  artifactKey: Guid(177bddf229f8d8445a70c0652f03b7df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs using Guid(177bddf229f8d8445a70c0652f03b7df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f811d42bb29861bdba851af0e7ffb9b0') in 0.009871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef
+  artifactKey: Guid(06dafbbe6b7b3a84f84213f47aabe7f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef using Guid(06dafbbe6b7b3a84f84213f47aabe7f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2752d7478c654a8ad5dd7ef3bfc1c257') in 0.014774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadEast.png
+  artifactKey: Guid(ad77e699b6c94c544bf664e68297e592) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadEast.png using Guid(ad77e699b6c94c544bf664e68297e592) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bb21e39596cb5b73e431ca4dc4acf608') in 0.017750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdleJumpUp.fbx
+  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '687074676eddd87c47437b255aa16acf') in 0.048421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_5.asset
+  artifactKey: Guid(7359e46495fee634ea42bf4ff6188d7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_5.asset using Guid(7359e46495fee634ea42bf4ff6188d7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '78d2a670f9faec10132aae416b9ee87c') in 0.045528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Scripts/BulletImage.cs
+  artifactKey: Guid(0f9dc904cee0a4149804041c41ca5d05) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/BulletImage.cs using Guid(0f9dc904cee0a4149804041c41ca5d05) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c71c8a404891d8b739a8891367bd0bfd') in 0.010783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/tree_6.FBX
+  artifactKey: Guid(45e438e80c2860545b63beb8d6718edd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/tree_6.FBX using Guid(45e438e80c2860545b63beb8d6718edd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '27fd7d97334d078f72c6a0ec3b94e74f') in 0.067913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/bulletRed2_outline.png
+  artifactKey: Guid(6975ad6776db4d94eb5ece990cf04811) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/bulletRed2_outline.png using Guid(6975ad6776db4d94eb5ece990cf04811) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '041ab6f0d96f71db2b596dd422885648') in 0.017971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/explosion2.png
+  artifactKey: Guid(ecbccb99c233f2a46a323116d9ccec2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/explosion2.png using Guid(ecbccb99c233f2a46a323116d9ccec2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dae0995b2099423f58189d258e77aa13') in 0.030499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/specialBarrel5_outline.png
+  artifactKey: Guid(962beabb47051e4409fbc4004f5216de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/specialBarrel5_outline.png using Guid(962beabb47051e4409fbc4004f5216de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cd7d8395506c92fc7e1b70b53e262f84') in 0.018705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tank_sand.png
+  artifactKey: Guid(0c780ae58e10cf542af4987f70c614c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tank_sand.png using Guid(0c780ae58e10cf542af4987f70c614c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2ff1bb3c5b466a99483540a6e1e3ed1b') in 0.030860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_23.asset
+  artifactKey: Guid(64c73df9c927ea24888730a3e974d3ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_23.asset using Guid(64c73df9c927ea24888730a3e974d3ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '64fa93eb4259a08594e6d6f639bc72f8') in 0.011377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/treeGreen_small.png
+  artifactKey: Guid(48986c1008265d34b9deaef836cfe34c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/treeGreen_small.png using Guid(48986c1008265d34b9deaef836cfe34c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '44cf101d04c85e03bb7be68bea8891ac') in 0.022525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_21.asset
+  artifactKey: Guid(035bec00adbd13249a18eeabc23098a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_21.asset using Guid(035bec00adbd13249a18eeabc23098a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dade7513ac9e1c22730543b73c3752eb') in 0.014111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_dark.png
+  artifactKey: Guid(63a7136a5c2f76041bd42c4b9ae42455) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_dark.png using Guid(63a7136a5c2f76041bd42c4b9ae42455) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '350a3c5fd9ddf0dcd25cfebaec86e83b') in 0.021018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/RoomInfo.cs
+  artifactKey: Guid(71760b65ad7d5b842942c797a0366fa7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonRealtime/Code/RoomInfo.cs using Guid(71760b65ad7d5b842942c797a0366fa7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '416b6dcf56d9d2208b4e6687628d21a8') in 0.013360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadRampLongCurvedWall.fbx
+  artifactKey: Guid(002276cc119770f4c8b9797abd47f7e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadRampLongCurvedWall.fbx using Guid(002276cc119770f4c8b9797abd47f7e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '03b6bd7e084f7aeabffef971d53e9577') in 0.035917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/fenceRed.png
+  artifactKey: Guid(5bfcfc0edfb27314c897f461db0c14bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/fenceRed.png using Guid(5bfcfc0edfb27314c897f461db0c14bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0f0663c1e60b18f4d4483911f59022e9') in 0.017031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/bulletGreen3.png
+  artifactKey: Guid(babfd6db8002a6e4fb669ae661b34862) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/bulletGreen3.png using Guid(babfd6db8002a6e4fb669ae661b34862) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5e6d1dcf8b4f110be90663ba56476233') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/specialBarrel5_outline.png
+  artifactKey: Guid(8844b6b2fe2245048b630745e0662e7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/specialBarrel5_outline.png using Guid(8844b6b2fe2245048b630745e0662e7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'baeacfe496ee0df8bf4c071e025a1c76') in 0.015406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersInRoomProperty.cs
+  artifactKey: Guid(efbb55080baae4567af10254c267900c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersInRoomProperty.cs using Guid(efbb55080baae4567af10254c267900c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '88721c3039303ccca5f2d0d5c14b5182') in 0.011720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/specialBarrel1_outline.png
+  artifactKey: Guid(21ba499881b90204eafeb1e549378dc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/specialBarrel1_outline.png using Guid(21ba499881b90204eafeb1e549378dc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3893ee0f218a4a312b5c895352d032e9') in 0.033710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs
+  artifactKey: Guid(ec99d371d7c8e44899ce4b834dfd4d6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs using Guid(ec99d371d7c8e44899ce4b834dfd4d6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f54a0baaaad14ed28bdd8c793032e581') in 0.011499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs
+  artifactKey: Guid(3d2cadb1ccf05074e8ce96b1393846cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs using Guid(3d2cadb1ccf05074e8ce96b1393846cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '247b9cf22f2ce112603c1201f643c0ea') in 0.010432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png
+  artifactKey: Guid(81b8e0c5ffa3345b7aa3af3a2c0257ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png using Guid(81b8e0c5ffa3345b7aa3af3a2c0257ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd7a51c2b32b0b3994d213d51aa0b35fe') in 0.010313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Import/ParrelSync/ParrelSync-master/ParrelSync/Editor/ClonesManagerWindow.cs
+  artifactKey: Guid(a041d83486c20b84bbf5077ddfbbca37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/ParrelSync/ParrelSync-master/ParrelSync/Editor/ClonesManagerWindow.cs using Guid(a041d83486c20b84bbf5077ddfbbca37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd6f55ae388985a723a336451b2b74b48') in 0.032146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/sandbagBrown_open.png
+  artifactKey: Guid(fe0f6c6982af09149b20761d7360e3b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/sandbagBrown_open.png using Guid(fe0f6c6982af09149b20761d7360e3b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c868d25e5602b850e554e4c6302c3adb') in 0.045443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankDark_barrel1.png
+  artifactKey: Guid(71e63577d00db7f419ee7453a226f0c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankDark_barrel1.png using Guid(71e63577d00db7f419ee7453a226f0c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '100133c69f0f2917cd070aa60f702af3') in 0.018172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerNameInputField.cs
+  artifactKey: Guid(c22ee30e9b2b34fe38b62e48c7d79dfa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerNameInputField.cs using Guid(c22ee30e9b2b34fe38b62e48c7d79dfa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '11edf97d5a75f02178c79fa2b0dac2e4') in 0.010702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/bulletSand3.png
+  artifactKey: Guid(bb91be9394d6eec46a81b7310491f054) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/bulletSand3.png using Guid(bb91be9394d6eec46a81b7310491f054) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1d1c9cd841f6fb11365b82c32b942c2c') in 0.015035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_dark_outline.png
+  artifactKey: Guid(9d9b7da56c6dcb14a8175e25dd33b707) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_dark_outline.png using Guid(9d9b7da56c6dcb14a8175e25dd33b707) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c53e0168d2c5a95828dba5aaa722e83e') in 0.016689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadSplitW.png
+  artifactKey: Guid(3a84905cd677ce747b39e625d76dd7ee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadSplitW.png using Guid(3a84905cd677ce747b39e625d76dd7ee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0e9521c803cf685216e6b6939f378bbe') in 0.016150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/AutoSyncSceneToggle.cs
+  artifactKey: Guid(345270254ed7b49e89ce5662ca70a091) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/AutoSyncSceneToggle.cs using Guid(345270254ed7b49e89ce5662ca70a091) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cb15879c7a9651a73504d2b98bf96e6c') in 0.009812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadTransitionS_dirt.png
+  artifactKey: Guid(f28cba9f3c73e8d46b5a57846394b769) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadTransitionS_dirt.png using Guid(f28cba9f3c73e8d46b5a57846394b769) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1294405e40522918ab148463d3c09540') in 0.027317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfRoomsProperty.cs
+  artifactKey: Guid(8da0abdf8617d4c76bc84fc49e21c53b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfRoomsProperty.cs using Guid(8da0abdf8617d4c76bc84fc49e21c53b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '43fe5095a40e0f139be957b5f2802667') in 0.010728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/BackgroundTimeOutField.cs
+  artifactKey: Guid(44aff3084c8664497aa6048e66e71a7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/BackgroundTimeOutField.cs using Guid(44aff3084c8664497aa6048e66e71a7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fa14842d39c49a272425c34795bf0209') in 0.011407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/sandbagBrown.png
+  artifactKey: Guid(95668f71775745e47a588153fbfb38ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/sandbagBrown.png using Guid(95668f71775745e47a588153fbfb38ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a156800369dba3fddf5b89120287fe01') in 0.019073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx
+  artifactKey: Guid(401fae203bae0ee428e401e7f9af9be8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx using Guid(401fae203bae0ee428e401e7f9af9be8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b967fed1f751d7af32a280ece4e8f0eb') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs
+  artifactKey: Guid(4433564e76b1940028e7e531f171050d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs using Guid(4433564e76b1940028e7e531f171050d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b39e3740214fe702764842edf88bd56b') in 0.010751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '81838647df5fc358ac36e8c1b3220528') in 0.046128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '62bd4b13264c4c280ebc0595acd279cd') in 0.011666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef
+  artifactKey: Guid(831409e8f9d13b5479a3baef9822ad34) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef using Guid(831409e8f9d13b5479a3baef9822ad34) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e039e58fdf26230ab35509e733661c51') in 0.023814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/PointerPrefab.prefab
+  artifactKey: Guid(9c6977a9ecda14e4e96ea3a71c749c2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/PointerPrefab.prefab using Guid(9c6977a9ecda14e4e96ea3a71c749c2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8715f9028f557260d15fa44a59782fdd') in 0.020760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatClient.cs
+  artifactKey: Guid(692e391fa2a297c45b3d530aa85be610) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Code/ChatClient.cs using Guid(692e391fa2a297c45b3d530aa85be610) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f1818da9137d223d129612b2a966a92e') in 0.018778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel2.png
+  artifactKey: Guid(8873948345dfd5343bbeb2af101f058e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel2.png using Guid(8873948345dfd5343bbeb2af101f058e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '22d756cd8410bf7f2d9055c7aa86fec4') in 0.033415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletGreen3_outline.png
+  artifactKey: Guid(613f8f7af07c3674babf7104b9bdf393) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletGreen3_outline.png using Guid(613f8f7af07c3674babf7104b9bdf393) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '72517aed739f08615af81b59962b01a9') in 0.014942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankBody_huge_outline.png
+  artifactKey: Guid(9974dff28114a0a40ae04f175e022612) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankBody_huge_outline.png using Guid(9974dff28114a0a40ae04f175e022612) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b81e1f188b5e75b83056ebbb88e2bc06') in 0.016179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankGreen_barrel2.png
+  artifactKey: Guid(815980a0cfd9d914489d92922fe1fe70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankGreen_barrel2.png using Guid(815980a0cfd9d914489d92922fe1fe70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fc9356162908ef6dfcebe35858c65032') in 0.016417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png
+  artifactKey: Guid(b5771695f174e1143b3090393989b688) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png using Guid(b5771695f174e1143b3090393989b688) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6a8d3699ccbff4b2aedd8ac3209d3dfe') in 0.011039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/No Name.mat
+  artifactKey: Guid(a773bd7a075f9534e9c9ed1eb6e9a30f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/No Name.mat using Guid(a773bd7a075f9534e9c9ed1eb6e9a30f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f5feaf65be61d42b6d0b64a32f3d68f1') in 0.011923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankSand_barrel1.png
+  artifactKey: Guid(8df4d5d49541f5242b5fb0202af3fa69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankSand_barrel1.png using Guid(8df4d5d49541f5242b5fb0202af3fa69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ffcf83f5c0d564bde9a10b6d35e693c5') in 0.021980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_7.asset
+  artifactKey: Guid(9c487be19aa97f945846a62987a4a5c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_7.asset using Guid(9c487be19aa97f945846a62987a4a5c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '91b31ab73d05f03fb88e6bf07c4b545a') in 0.024279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurnSharp.fbx
+  artifactKey: Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurnSharp.fbx using Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f6c3cf11ac5aabee3705c51164b1011c') in 0.053372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel2_outline.png
+  artifactKey: Guid(7b611612c9771eb4a815948328c7daae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel2_outline.png using Guid(7b611612c9771eb4a815948328c7daae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3b8a6bc9a5ffdaae26e213959b04e256') in 0.018429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs
+  artifactKey: Guid(40bca7ec270007b40a4de315c071f4d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs using Guid(40bca7ec270007b40a4de315c071f4d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f311de9b1da6805cea11f141ed0f8a20') in 0.013521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadSplitE.png
+  artifactKey: Guid(94c7a2eb17e804949ba263a9b9eeb44e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadSplitE.png using Guid(94c7a2eb17e804949ba263a9b9eeb44e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '613272d961ff6e028faf3bb54a9d3562') in 0.015716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab
+  artifactKey: Guid(d68bf8413681d9b4aa7328277e632e3f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab using Guid(d68bf8413681d9b4aa7328277e632e3f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a06b58537dfc0e99967026dd82688121') in 0.010482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletDark3.png
+  artifactKey: Guid(a688f1d9792626d4cbfd23eaa8be1054) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletDark3.png using Guid(a688f1d9792626d4cbfd23eaa8be1054) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9a7999d95d1d56211f870daf64d4e660') in 0.026568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Button Regular.prefab
+  artifactKey: Guid(395d3cc3d7cf0014a870fee72cbd3490) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Button Regular.prefab using Guid(395d3cc3d7cf0014a870fee72cbd3490) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '01b27e87b857e183943964833ce98ae1') in 0.013561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/Spaceship.cs
+  artifactKey: Guid(c565458f43b8ad4469a2ca341c210318) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Game/Spaceship.cs using Guid(c565458f43b8ad4469a2ca341c210318) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '006b5b7d3a63b5c96be65f2a4fd1e597') in 0.011305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5e8a8c1ce499763e072d1acbece2d825') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/treeBrown_twigs.png
+  artifactKey: Guid(780650ea90c02a24ea8b1b9ddcb3af33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/treeBrown_twigs.png using Guid(780650ea90c02a24ea8b1b9ddcb3af33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd4a35eb4f051e75fe356ec26121b0712') in 0.016707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/DemoHub-Scene.unity
+  artifactKey: Guid(7dfd47dc8b9484dd79d8636d8603a9e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/DemoHub-Scene.unity using Guid(7dfd47dc8b9484dd79d8636d8603a9e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0e2de06ff7e0a729cf1c5adfae39519b') in 0.009444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxBright.png
+  artifactKey: Guid(ab6d288fac925ae48bbeb5e02d83dce3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxBright.png using Guid(ab6d288fac925ae48bbeb5e02d83dce3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e4f1585180bbf975c748591f8121eeea') in 0.015820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(c4e875b18675f124ba67bc5d313b5244) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Player.cs using Guid(c4e875b18675f124ba67bc5d313b5244) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '344e7275ee73173b71273447110e3caf') in 0.010895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/bulletBlue3.png
+  artifactKey: Guid(ce5d8ddc51cd0e84dbdfc9fbf2f3b66a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/bulletBlue3.png using Guid(ce5d8ddc51cd0e84dbdfc9fbf2f3b66a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '406027a07fa0719cbc5ec4079a156f05') in 0.032152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/explosionSmoke3.png
+  artifactKey: Guid(755767e947a8f5e41abfc7c1732b1dbb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/explosionSmoke3.png using Guid(755767e947a8f5e41abfc7c1732b1dbb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a38b66cdcd01f846e6d6e0ecbce62983') in 0.040470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/treeBrown_leaf.png
+  artifactKey: Guid(7b6635035fe3d7a41a6ef06dc357f046) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/treeBrown_leaf.png using Guid(7b6635035fe3d7a41a6ef06dc357f046) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '004ca1c4c573acec86e04ca650994195') in 0.028726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureYellow12x.mat
+  artifactKey: Guid(ceba02e8dfaf34474b36fe43b51b69db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureYellow12x.mat using Guid(ceba02e8dfaf34474b36fe43b51b69db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '561be249a95d02c550e7ed98f78b3c59') in 0.011812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/bulletGreen2_outline.png
+  artifactKey: Guid(ed6815d05a9f0e6498042e8353bf9f33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/bulletGreen2_outline.png using Guid(ed6815d05a9f0e6498042e8353bf9f33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '711ab1a4366cff7e3921d5e975b29d78') in 0.020426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tank_huge.png
+  artifactKey: Guid(180da78fc3e64be4e8643c641a2e62be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tank_huge.png using Guid(180da78fc3e64be4e8643c641a2e62be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0df4ed2f3072c26d422008bcf3b8213b') in 0.019592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PlayerListView.cs
+  artifactKey: Guid(e9df448c4ba9a4d4cb5a369b4692ceb2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PlayerListView.cs using Guid(e9df448c4ba9a4d4cb5a369b4692ceb2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '00b5cb25c9b390d90d564a3e0427f8b4') in 0.013972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankBlue_barrel3.png
+  artifactKey: Guid(19da2ce016e41144d93ebfdab28260be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankBlue_barrel3.png using Guid(19da2ce016e41144d93ebfdab28260be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'eb8188d42183bc1f37a16725507ed270') in 0.018700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerAnimatorManager.cs
+  artifactKey: Guid(507e5741cec8a42dc964c8e0a4b55bd6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerAnimatorManager.cs using Guid(507e5741cec8a42dc964c8e0a4b55bd6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '92bf787a9fcef3f62baeed7d9840f6f3') in 0.010721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7a7fde490f3182488c1e54f0b1829532') in 0.012945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_31.asset
+  artifactKey: Guid(1b90e63db5d6ef54baa265e50fb41f5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_31.asset using Guid(1b90e63db5d6ef54baa265e50fb41f5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '32774fddcbf09447455dd1c828ac28f2') in 0.200531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatOperationCode.cs
+  artifactKey: Guid(c90a2a73f3ce648409739c724d3e6cef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Code/ChatOperationCode.cs using Guid(c90a2a73f3ce648409739c724d3e6cef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a2824fd228496f368f78849e1ccebdb8') in 0.014825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs
+  artifactKey: Guid(c94485733838d40fda441b2c0fbbec10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs using Guid(c94485733838d40fda441b2c0fbbec10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '554a9617393c3982d367ad1de3299f15') in 0.014348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_huge_outline.png
+  artifactKey: Guid(c28740b4fc4e274408a16ca49ea18a5b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_huge_outline.png using Guid(c28740b4fc4e274408a16ca49ea18a5b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f8355fe4369e6dcf48f8242807b7b2d2') in 0.020251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tank_green.png
+  artifactKey: Guid(a9088e5aad7f08443af8aaea2ef630d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tank_green.png using Guid(a9088e5aad7f08443af8aaea2ef630d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e3b020409f3192d55d2b9b07db20387f') in 0.012928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs
+  artifactKey: Guid(ac953d6a57a9ea94e96ec689598995d5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs using Guid(ac953d6a57a9ea94e96ec689598995d5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a9f6678e2ad5d04890ff68997bdafada') in 0.011043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/specialBarrel2_outline.png
+  artifactKey: Guid(76d51a5a9b033cc40a2152bae88eee86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/specialBarrel2_outline.png using Guid(76d51a5a9b033cc40a2152bae88eee86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9c72ce854aacd7c2f19ff7cfa4623386') in 0.020401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierCurve.cs
+  artifactKey: Guid(b7b6b4e22427e4efbb847bd026324e59) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierCurve.cs using Guid(b7b6b4e22427e4efbb847bd026324e59) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8dbac7867021381b9d3d994cc7845099') in 0.012148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/specialBarrel2_outline.png
+  artifactKey: Guid(b75ea366bafbfc345996ea7a947010cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/specialBarrel2_outline.png using Guid(b75ea366bafbfc345996ea7a947010cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1602c8396e8384b2290f4ee5567b3456') in 0.018409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOn.png
+  artifactKey: Guid(0520b1e88ad26ae4bb758a35cdf13a64) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOn.png using Guid(0520b1e88ad26ae4bb758a35cdf13a64) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '736346061302ab90edc82bb8bfa031df') in 0.016673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs
+  artifactKey: Guid(1fbabafd914a48f4eb6108d8d8f43d29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs using Guid(1fbabafd914a48f4eb6108d8d8f43d29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce6650e5ae7581012d07988b8df7931d') in 0.018614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue.mat
+  artifactKey: Guid(1401c9e6acd739e49a9caa91ab07ac7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue.mat using Guid(1401c9e6acd739e49a9caa91ab07ac7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3b58c544df83f8d59c9e09812d2eef5b') in 0.019773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/BezierSplineInspector.cs
+  artifactKey: Guid(127eddf8173c549d9976751e82f3face) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/BezierSplineInspector.cs using Guid(127eddf8173c549d9976751e82f3face) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4890ccee00b58a5a7aaf3f5756b89fdb') in 0.011967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/BoolInputField.cs
+  artifactKey: Guid(0d7694afd58e94f988b7b524da7b97b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/BoolInputField.cs using Guid(0d7694afd58e94f988b7b524da7b97b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '85dcb9f24a3b33d875ed35539b89e531') in 0.016726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/BulletController.cs
+  artifactKey: Guid(af5bb0221d55df543886c58336f4f29b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/BulletController.cs using Guid(af5bb0221d55df543886c58336f4f29b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '26238d7d5a3193e92bce6bb987b04e71') in 0.156526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/WebRpcImplementationExample.cs
+  artifactKey: Guid(e5c26fb35dbf64c4eb0d1f24f1a853e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/WebRpcImplementationExample.cs using Guid(e5c26fb35dbf64c4eb0d1f24f1a853e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '337c0026565788e4120f3382e98ad011') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletRed2.png
+  artifactKey: Guid(75095b73bb3a20747a1d70e73a092f31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletRed2.png using Guid(75095b73bb3a20747a1d70e73a092f31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1d35f80aa2912a62a9825d445bb7a27d') in 0.031136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tank_blue.png
+  artifactKey: Guid(0f456c7376ae2cc4eac4eed1b0c36db3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tank_blue.png using Guid(0f456c7376ae2cc4eac4eed1b0c36db3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '49cb3781988457685cd45c787fab6426') in 0.041133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/barrelRed_top.png
+  artifactKey: Guid(6ce96faf072a44f408ab3d3c2a00214a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/barrelRed_top.png using Guid(6ce96faf072a44f408ab3d3c2a00214a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd53c1d75dbc77e68a08a519c3eabf803') in 0.034117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Medium.ttf
+  artifactKey: Guid(e00995507c2406448b4c8429136104dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Medium.ttf using Guid(e00995507c2406448b4c8429136104dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c367caa9d9a81cceaf7b45d8e55e977f') in 0.062906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileGrass2.png
+  artifactKey: Guid(c0e3896d826960c4191248edf9089608) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileGrass2.png using Guid(c0e3896d826960c4191248edf9089608) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7730998c68bc55d01d80f46d3b983dd5') in 0.029736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_19.asset
+  artifactKey: Guid(c89673e308885184c98366159b89d924) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_19.asset using Guid(c89673e308885184c98366159b89d924) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '053d48d681530aa01a8d87c5f7b8a06f') in 0.016837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd5c9c7751ddaa8cf4ea02355cf737fc0') in 0.032224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8cfa74bba7e1f501874fb5359353e26a') in 0.030700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/specialBarrel6_outline.png
+  artifactKey: Guid(422d6681abee2794bab55618b97b1f9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/specialBarrel6_outline.png using Guid(422d6681abee2794bab55618b97b1f9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0ae92e8fc8894a04b46bccd8f5b63f6a') in 0.027703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/SlotRacerSplashScreen.cs
+  artifactKey: Guid(fda2ec3ef73274d5886232a03b450769) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/SlotRacerSplashScreen.cs using Guid(fda2ec3ef73274d5886232a03b450769) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '813b5499582ef99e3ed85d39458c21bf') in 0.012408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs
+  artifactKey: Guid(1e808171e8963498bb1db072a977d750) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs using Guid(1e808171e8963498bb1db072a977d750) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e90da1793ff499bec73e18cce359a61d') in 0.012589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png
+  artifactKey: Guid(9f1212502533cb34188dd6ef094188cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png using Guid(9f1212502533cb34188dd6ef094188cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2961dc94cf39e8037db737d1a81e5649') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tank_green.png
+  artifactKey: Guid(eb1bd8aba8898da46a1f4d080637db40) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tank_green.png using Guid(eb1bd8aba8898da46a1f4d080637db40) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '85431a0ac9310bba7e477de2be66b7e2') in 0.074084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/shotThin.png
+  artifactKey: Guid(77ea70ad849790843a9ccefb1ffd0e53) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/shotThin.png using Guid(77ea70ad849790843a9ccefb1ffd0e53) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f552a778c63b23133d92b727b6a368bc') in 0.021343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '28d54a06634cda8956ccfa264e6367a3') in 0.019922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel1.png
+  artifactKey: Guid(4f547ff2007782446b299707e4022bba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel1.png using Guid(4f547ff2007782446b299707e4022bba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce83a7193705d23562529637b92022ec') in 0.020452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletSand2.png
+  artifactKey: Guid(200fdf1b0b2d2ac438f65fb7fc144d66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletSand2.png using Guid(200fdf1b0b2d2ac438f65fb7fc144d66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '432b7ddb40a2e47866b4f98a5179f97f') in 0.036676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileSand_roadEast.png
+  artifactKey: Guid(e98af43bb1d2ab7408d8ef1e8508f4f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileSand_roadEast.png using Guid(e98af43bb1d2ab7408d8ef1e8508f4f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8ac41a4962fb8b1d944d50dac5302ba2') in 0.020497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs
+  artifactKey: Guid(2cd0ed7420882554fa146aab6aeb2e80) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs using Guid(2cd0ed7420882554fa146aab6aeb2e80) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cdad6b537f3bccacc564e8fb8ea4636c') in 0.020070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/tank.mat
+  artifactKey: Guid(479cbf10a2ba803449168e0148bcdbb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/tank.mat using Guid(479cbf10a2ba803449168e0148bcdbb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c5e65ed23f4c3fe041bdd15ea12b10db') in 0.022639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/specialBarrel1_outline.png
+  artifactKey: Guid(bd17ade20cb2c6a48a14a70bea1ace66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/specialBarrel1_outline.png using Guid(bd17ade20cb2c6a48a14a70bea1ace66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '628186497c3caf189481cf4a44ffd9fb') in 0.022918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002775 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player Controller.prefab
+  artifactKey: Guid(c9248d8e58293473bb27cf2f5505f88b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player Controller.prefab using Guid(c9248d8e58293473bb27cf2f5505f88b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6c347d486fd57bdc35729d2e26bdd44b') in 0.016727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureRed12x.mat
+  artifactKey: Guid(3f171282ef46c4fbea54d9ab581fcb83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureRed12x.mat using Guid(3f171282ef46c4fbea54d9ab581fcb83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '98497d39da55d9c9b3eb5a54dbde6cdd') in 0.021941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletSand1.png
+  artifactKey: Guid(5accbe3f733e8e3489dcd1f89b6d9d59) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletSand1.png using Guid(5accbe3f733e8e3489dcd1f89b6d9d59) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '20bde8e65b8f8dc4a5e2a20aa4d0b8b0') in 0.039782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalk.fbx
+  artifactKey: Guid(b1a5e04ae51004842aba06704a6c2903) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalk.fbx using Guid(b1a5e04ae51004842aba06704a6c2903) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1616340799ec7694bac46061a2df462b') in 0.043752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletDark3_outline.png
+  artifactKey: Guid(49fd2af72a7d6e04591bb1b4ac2f383c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletDark3_outline.png using Guid(49fd2af72a7d6e04591bb1b4ac2f383c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a1bedf042c3128b18e87a8236d5a888e') in 0.020472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e15d29ddc4bec691c363cd16593d8e4c') in 0.026063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs
+  artifactKey: Guid(9d234639538a34b8d9e3cc6362a7afd0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs using Guid(9d234639538a34b8d9e3cc6362a7afd0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9c4b61ef0e017497e4934ac95d7534cc') in 0.025657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/barrelBlack_top.png
+  artifactKey: Guid(1c37e5cfe7f13d04d9290719334d56ff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/barrelBlack_top.png using Guid(1c37e5cfe7f13d04d9290719334d56ff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5c956088a753166d3af401b47572f6e8') in 0.037950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletBlue3_outline.png
+  artifactKey: Guid(3a56c42ff9d572c419be9b87d7b7de5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletBlue3_outline.png using Guid(3a56c42ff9d572c419be9b87d7b7de5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bad44542e08e2d45030e4beb1a74c6a7') in 0.027793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass2.png
+  artifactKey: Guid(d6f39830b0185f34ab2ac8463bdb885f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass2.png using Guid(d6f39830b0185f34ab2ac8463bdb885f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3a476e783a161eafa5fb37b9dffa1952') in 0.020520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass_transitionE.png
+  artifactKey: Guid(1412270058c20644abe7331975a9f80a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass_transitionE.png using Guid(1412270058c20644abe7331975a9f80a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ecd0a1a2a9da9cf2b03283af97a06338') in 0.037733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Import/ParrelSync/ParrelSync-master/Images/doc/Argument.png
+  artifactKey: Guid(47741ec536e56b848b8bcd2332d141ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/ParrelSync/ParrelSync-master/Images/doc/Argument.png using Guid(47741ec536e56b848b8bcd2332d141ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8b8b08ae7a1c221555174978ef073582') in 0.013433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/wireStraight.png
+  artifactKey: Guid(62188f365edbf554b8fcb2cf2125e0fd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/wireStraight.png using Guid(62188f365edbf554b8fcb2cf2125e0fd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'be4e74993e1bd0fe14b084563b7d70dc') in 0.039695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/changelog.txt
+  artifactKey: Guid(612a7d8fb44bb994d90d9c0fa1408703) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/changelog.txt using Guid(612a7d8fb44bb994d90d9c0fa1408703) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce8039f4aafa6e2ef04da2418b7a7d04') in 0.013134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankBody_green.png
+  artifactKey: Guid(2d29df8368e7d2041bc5f2ebb423ed0f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankBody_green.png using Guid(2d29df8368e7d2041bc5f2ebb423ed0f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '25a45fed10b2b2ea9477f065fcf1dbf9') in 0.011936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankDark_barrel2_outline.png
+  artifactKey: Guid(e1d2af5908279bf41ac2aefb4c92586d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankDark_barrel2_outline.png using Guid(e1d2af5908279bf41ac2aefb4c92586d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'db2459c41c5f93c3963054369c187fd2') in 0.030543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankBody_green_outline.png
+  artifactKey: Guid(914d7a269cfa42a48a3eba5b89902507) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankBody_green_outline.png using Guid(914d7a269cfa42a48a3eba5b89902507) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '831b95d6dc9a0e16b242f912f2f7cd19') in 0.043255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_darkLarge_outline.png
+  artifactKey: Guid(c520562f3fc109047814c95cbdf7a9ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_darkLarge_outline.png using Guid(c520562f3fc109047814c95cbdf7a9ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '618e2a5127fcdffe6c589457d261daa8') in 0.018355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs
+  artifactKey: Guid(22292ca8ffb574945bedfaf49266672e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs using Guid(22292ca8ffb574945bedfaf49266672e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6d9fc03a7aa156ab546532c9b05dd09d') in 0.013132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel2.png
+  artifactKey: Guid(b284eb79cb605fc4589348201e979e98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankDark_barrel2.png using Guid(b284eb79cb605fc4589348201e979e98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5d6e696fab5eef8592b90488a9d2e707') in 0.027340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/bulletGreen2_outline.png
+  artifactKey: Guid(c3fb4bd6f3839664b907612791336767) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/bulletGreen2_outline.png using Guid(c3fb4bd6f3839664b907612791336767) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3e2c0381d4660a8327d2bb6a0fd8fc71') in 0.024875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f0eeabb258d26f1966d0a5847648610c') in 0.011841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a4d6528d8a6505bacb505094f28addeb') in 0.010978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/specialBarrel1.png
+  artifactKey: Guid(ae19bdce10750bd43897dcb42ac96fd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/specialBarrel1.png using Guid(ae19bdce10750bd43897dcb42ac96fd3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '38bbd270506b3177bff8ddf7503a4558') in 0.019150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadTransitionS.png
+  artifactKey: Guid(5ca72013fcf5d694bbbfddb9b964dd25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileGrass_roadTransitionS.png using Guid(5ca72013fcf5d694bbbfddb9b964dd25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f68ad4c3abde23794934edae39683e92') in 0.018339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/ToggleExpand.cs
+  artifactKey: Guid(50b3f63970a204e72b36153eb93684bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/ToggleExpand.cs using Guid(50b3f63970a204e72b36153eb93684bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1fa245801408998363c95f61209b2341') in 0.012837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PropertyCell.cs
+  artifactKey: Guid(b130ea0b2adec46ef87072879b8ac38c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/PropertyCell.cs using Guid(b130ea0b2adec46ef87072879b8ac38c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '589eaaaedf60c0790431566dd9a15410') in 0.009549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/specialBarrel4_outline.png
+  artifactKey: Guid(f9b4764ade216d94f9af57d03d636141) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/specialBarrel4_outline.png using Guid(f9b4764ade216d94f9af57d03d636141) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3e8e7bbb0e55cd7c637380ec7928988d') in 0.016916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/FlyerAsteroidB.fbx
+  artifactKey: Guid(757fc9771ce30dc468c775b392518d81) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/FlyerAsteroidB.fbx using Guid(757fc9771ce30dc468c775b392518d81) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd501adc632c7430b21cd803f716f58e6') in 0.015278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel3_outline.png
+  artifactKey: Guid(b56b86d1c0d03514d9258180fa3ce099) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel3_outline.png using Guid(b56b86d1c0d03514d9258180fa3ce099) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3d28865f92a774bf577a190f96ac510b') in 0.041960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef
+  artifactKey: Guid(7024f760fc566cf45a16d2c838e22b2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef using Guid(7024f760fc566cf45a16d2c838e22b2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0ac41d083e6c64d65e9544d9d2135474') in 0.016144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif
+  artifactKey: Guid(bfc02e2f0447eaf4190d17879193f0e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif using Guid(bfc02e2f0447eaf4190d17879193f0e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0ca46084ff3313d7945a81bf1640a659') in 0.021585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_18.asset
+  artifactKey: Guid(0798b929972127d4f8982c7db48d7511) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_18.asset using Guid(0798b929972127d4f8982c7db48d7511) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cb5ca836552812d6bfcd578f1031e3a8') in 0.032610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef
+  artifactKey: Guid(e9a89c21e4f5b294eb31fb8166e13303) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef using Guid(e9a89c21e4f5b294eb31fb8166e13303) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2ddd6af28198453d5e23ef1b4bd87d8a') in 0.019831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/shotThin.png
+  artifactKey: Guid(6342018af4a527d47a55f9cb19102986) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/shotThin.png using Guid(6342018af4a527d47a55f9cb19102986) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ba36458829cc0e9f4fc337aa6c0bf5a1') in 0.024361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadCornerLR.png
+  artifactKey: Guid(0a4075098a3fb0d46bf1a5582d769a79) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadCornerLR.png using Guid(0a4075098a3fb0d46bf1a5582d769a79) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dd1591985cd85b51383e8d0d3e0cd594') in 0.023627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/Red Beam.mat
+  artifactKey: Guid(409bf720e9924426b9f253cf037a8f4e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/Red Beam.mat using Guid(409bf720e9924426b9f253cf037a8f4e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '459033e60a4874e2f2fcd42df04e04fa') in 0.029175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Scripts/RoundManager.cs
+  artifactKey: Guid(dd7d0e4a1d792a44fa374d0263e51cc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/RoundManager.cs using Guid(dd7d0e4a1d792a44fa374d0263e51cc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd6c5e0ef07057321950381f53ef04eee') in 0.011788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/barrelRed_side.png
+  artifactKey: Guid(60c076ad9f256c54fa01f5c4015ecaf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/barrelRed_side.png using Guid(60c076ad9f256c54fa01f5c4015ecaf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a1fb40652d6ca0d19029c41cf5db0aad') in 0.047520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/fenceRed.png
+  artifactKey: Guid(734a3630616d69147b2fa129eda3742f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/fenceRed.png using Guid(734a3630616d69147b2fa129eda3742f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1c29511c7bc4fbbf6e89f99ad34ae1b2') in 0.018112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_13.asset
+  artifactKey: Guid(ffd30e2c19634354590d180a47c15190) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_13.asset using Guid(ffd30e2c19634354590d180a47c15190) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8e257f0348df3887ac2b6b788556236f') in 0.019381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/StringInputField.cs
+  artifactKey: Guid(e02d5b184c20e43ebba343cc89e35962) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/StringInputField.cs using Guid(e02d5b184c20e43ebba343cc89e35962) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '601c8f3b7a5b475c3f25f8fc43021bc0') in 0.018046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Cluster.cs
+  artifactKey: Guid(3fde284a91e7bf14dbf72b084e11736d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Cluster.cs using Guid(3fde284a91e7bf14dbf72b084e11736d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bb5d415fe59ca587f8b0417bd63595db') in 0.017964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Resources/Medium Bullet.prefab
+  artifactKey: Guid(c09e9cad20c8a0242b07f02a2642701a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Resources/Medium Bullet.prefab using Guid(c09e9cad20c8a0242b07f02a2642701a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c1f203cc47a02016363a67239fda2f4a') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Import/ParrelSync/ParrelSync-master/ParrelSync/Editor/Preferences.cs
+  artifactKey: Guid(24641be1c0410a745b529e61b508679f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/ParrelSync/ParrelSync-master/ParrelSync/Editor/Preferences.cs using Guid(24641be1c0410a745b529e61b508679f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd37cc4c3a4ac94ea0d8ebd4d768b25b2') in 0.016174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_bigRed.png
+  artifactKey: Guid(b821bad390b692842a39190bdf1756d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_bigRed.png using Guid(b821bad390b692842a39190bdf1756d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'eb6c665430eede0567ae0ba5829def0e') in 0.029258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsVisibleProperty.cs
+  artifactKey: Guid(9caca36858e0a4cdb9511261f0525c72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsVisibleProperty.cs using Guid(9caca36858e0a4cdb9511261f0525c72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0b2521d01f92e7f3b4082d7d42bc8232') in 0.021538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TongueMaterial.mat
+  artifactKey: Guid(28498b9ebcb776a46b3c9479a664bfc7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TongueMaterial.mat using Guid(28498b9ebcb776a46b3c9479a664bfc7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f7282f4a626613c6f8dd4d5c81d4e0d5') in 0.016937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxOrange.png
+  artifactKey: Guid(13548d8d0fcb5c44b8044ce08a99c697) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/BoxOrange.png using Guid(13548d8d0fcb5c44b8044ce08a99c697) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a7c6ffd0c2e1ed508264d4fc896a566d') in 0.018538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity
+  artifactKey: Guid(711b38c07f2cf904f81b3422c67f1825) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity using Guid(711b38c07f2cf904f81b3422c67f1825) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ba9a342ba81b28309d744a62bc13e0b6') in 0.011618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Bezier.cs
+  artifactKey: Guid(2b14b8c3e9cc04a13898e1e50c9f1024) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Bezier.cs using Guid(2b14b8c3e9cc04a13898e1e50c9f1024) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ab0a83d74b2c90bb3689ddd569fbed04') in 0.016123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs
+  artifactKey: Guid(4eb1284704a754507acb17b07b888086) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs using Guid(4eb1284704a754507acb17b07b888086) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd25a8cca01423ada314f0ad0be32fed5') in 0.017626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankSand_barrel2_outline.png
+  artifactKey: Guid(40a6a8ff88b83c5459b42a98726fdb5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankSand_barrel2_outline.png using Guid(40a6a8ff88b83c5459b42a98726fdb5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a70d727a60956b41533609e1856c3a3c') in 0.034805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
+  artifactKey: Guid(4cee8bca36f2ab74b8feb832747fa6f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset using Guid(4cee8bca36f2ab74b8feb832747fa6f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4117db77f0113a3f20b096cb6d3bd22a') in 0.034874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/barrelGreen_side.png
+  artifactKey: Guid(da6c24b44bbe7274a834f4f970637a99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/barrelGreen_side.png using Guid(da6c24b44bbe7274a834f4f970637a99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b5f79c3edf56b2a9eab9545b154c3165') in 0.035751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/LineInspector.cs
+  artifactKey: Guid(668731f6cd4a54b7cbeaea95414d6cec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/LineInspector.cs using Guid(668731f6cd4a54b7cbeaea95414d6cec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a230e91cb8771a8c9fe7fd90bfd95293') in 0.017412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tileSand_roadSplitW.png
+  artifactKey: Guid(24f41847f64aa584887ab26f723e7254) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tileSand_roadSplitW.png using Guid(24f41847f64aa584887ab26f723e7254) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8e6658b04e822b3af303afe7bf5c9079') in 0.033794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/explosion1.png
+  artifactKey: Guid(b5d20fd912baa2f41a366af7ee7e5811) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/explosion1.png using Guid(b5d20fd912baa2f41a366af7ee7e5811) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0ba6a0c6c018f41e3a9f1078072a0e4e') in 0.038255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankSand_barrel2.png
+  artifactKey: Guid(90f6a17d2dfade14e89f9a0af744299a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankSand_barrel2.png using Guid(90f6a17d2dfade14e89f9a0af744299a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '16a802f805a50dfc3fe2878e70ce0c86') in 0.036567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tank_bigRed.png
+  artifactKey: Guid(1deb00b6c0feaaa4baa28d389a796682) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tank_bigRed.png using Guid(1deb00b6c0feaaa4baa28d389a796682) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a7939dca605a3791e764a972e75afd67') in 0.028821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Region.cs
+  artifactKey: Guid(bddf4f4bde2f8dd46927411229ce1302) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonRealtime/Code/Region.cs using Guid(bddf4f4bde2f8dd46927411229ce1302) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c5638c0420b9a93b2a1020ee4f9054cb') in 0.015267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsOfflineProperty.cs
+  artifactKey: Guid(e2e2a33f898da45eb9d44ea357e325db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsOfflineProperty.cs using Guid(e2e2a33f898da45eb9d44ea357e325db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '718d606c1fa7a6c8939eb505ad26bf89') in 0.016530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/barrelGreen_top.png
+  artifactKey: Guid(c9a9a259cf8f7614aa7cecde42241449) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/barrelGreen_top.png using Guid(c9a9a259cf8f7614aa7cecde42241449) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '37549cca8321c19a5e757d8d445a43d6') in 0.027513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Scripts/ParamControl.cs
+  artifactKey: Guid(1fd31bc4d19e37244b6f017dc9556906) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/ParamControl.cs using Guid(1fd31bc4d19e37244b6f017dc9556906) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83ae27534bb4712d8e7b4e8ee7ab164d') in 0.016402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.938169 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif
+  artifactKey: Guid(b28381ec2a3dce5459a8fd396a0eb560) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif using Guid(b28381ec2a3dce5459a8fd396a0eb560) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '27677397aa430b79e9608c2d129ce70a') in 0.015287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatState.cs
+  artifactKey: Guid(8f482d8c4fe7ade4cbb08eb4a2d83b39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Code/ChatState.cs using Guid(8f482d8c4fe7ade4cbb08eb4a2d83b39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f04d1946f17eff2cb221dab76686846a') in 0.014369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadStartPositions.fbx
+  artifactKey: Guid(f5a5b74b30add9048911cae29679bbce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadStartPositions.fbx using Guid(f5a5b74b30add9048911cae29679bbce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '428777530012baf167ca00f0827695a3') in 0.082906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/sandbagBeige_open.png
+  artifactKey: Guid(52c877a519847324c96b34c57d568341) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/sandbagBeige_open.png using Guid(52c877a519847324c96b34c57d568341) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd245ca76d733c32c974e0610837e131c') in 0.055925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ScoreHelper.cs
+  artifactKey: Guid(5a92eafb6e3fe4390b50c3eefbcc0504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ScoreHelper.cs using Guid(5a92eafb6e3fe4390b50c3eefbcc0504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'da988c9312739380cb3a02dd5f8ddfe5') in 0.048345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+  artifactKey: Guid(6a558ae793155af4b9b9ab945fc64a0f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll using Guid(6a558ae793155af4b9b9ab945fc64a0f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4a2abf28ffe614a1ca8c1130a7505049') in 0.019859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tankBody_sand_outline.png
+  artifactKey: Guid(9a00ea8143c41914fa9db11f6927366c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tankBody_sand_outline.png using Guid(9a00ea8143c41914fa9db11f6927366c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4573ffae9ff70f4badd625569f4ff9f3') in 0.039594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat
+  artifactKey: Guid(1598ff147655ecb4893e78f88baa9475) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat using Guid(1598ff147655ecb4893e78f88baa9475) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'baf40f9c69cda5a705912f0098a3a8b7') in 0.091887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Import/ParrelSync/ParrelSync-master/Images/Showcase 1.gif
+  artifactKey: Guid(4a58501c181cc2949a20c7c0751ace7f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/ParrelSync/ParrelSync-master/Images/Showcase 1.gif using Guid(4a58501c181cc2949a20c7c0751ace7f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '80b545067b53ed6f8092ff0af41833b6') in 0.017187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomAutoCleanupProperty.cs
+  artifactKey: Guid(b5de4d7e09db242c4aa0d47c4416630b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomAutoCleanupProperty.cs using Guid(b5de4d7e09db242c4aa0d47c4416630b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cfdc1c0c0b6c42d0c9d7845976322974') in 0.017685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileSand_roadCornerUR.png
+  artifactKey: Guid(f59379d4cff16fb4ab8c4c4925c7cc15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileSand_roadCornerUR.png using Guid(f59379d4cff16fb4ab8c4c4925c7cc15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1fcdbbcaf52f2e5733a7a3273c6703d1') in 0.075863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_25.asset
+  artifactKey: Guid(b672a9f6904371b4282f7f46c366f7e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_25.asset using Guid(b672a9f6904371b4282f7f46c366f7e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6cf655d4328ce0bfcf5eb6f4e1c6c242') in 0.019462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/tracksLarge.png
+  artifactKey: Guid(b33498a6578746446bb0685c3bb35b0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/tracksLarge.png using Guid(b33498a6578746446bb0685c3bb35b0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '25f2c40cd6564a5fe321404a8dcf876c') in 0.051878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Import/Main Sprites/PNG/Default size/shotLarge.png
+  artifactKey: Guid(087bffde9bc5aee499662f0b7dc17c43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Default size/shotLarge.png using Guid(087bffde9bc5aee499662f0b7dc17c43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e785eedc7b64bb9039fe5385e0e5c969') in 0.032724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel1.png
+  artifactKey: Guid(ffc04c504a19255468a949a67ab0d192) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankRed_barrel1.png using Guid(ffc04c504a19255468a949a67ab0d192) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'edd44de6de520e68262f8ee3708d9e0d') in 0.030136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tankBody_sand.png
+  artifactKey: Guid(e3b3077961b99df458ecfa59f08a713f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tankBody_sand.png using Guid(e3b3077961b99df458ecfa59f08a713f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e2ea817035319ac015ae16e2069cc725') in 0.039061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+  artifactKey: Guid(35c989013c977244186e524a4c90dcee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs using Guid(35c989013c977244186e524a4c90dcee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cc43ca657f05d79907ce5259bd2d0476') in 0.012542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/SmallAsteroid.prefab
+  artifactKey: Guid(18a79aea49b60d342b7a672b7a34edbe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/SmallAsteroid.prefab using Guid(18a79aea49b60d342b7a672b7a34edbe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '58df98de440d9cb48de4d70d8a57be55') in 0.012531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/AsteroidsGame.cs
+  artifactKey: Guid(a3a5d301bebde6547b43d377600a3e57) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/AsteroidsGame.cs using Guid(a3a5d301bebde6547b43d377600a3e57) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4b13a387cdacc05356d34496cb41e762') in 0.011886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdle.fbx
+  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '49bd2f67781d96930d86bd19fdd9a5af') in 0.041804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatChannel.cs
+  artifactKey: Guid(35b2a4878e5e99e438c97fbe8dbbd863) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonChat/Code/ChatChannel.cs using Guid(35b2a4878e5e99e438c97fbe8dbbd863) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '63256dc93ac691afbd59b661d78ceeb1') in 0.013512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPropertiesListedInLobbyProperty.cs
+  artifactKey: Guid(3597ecc77cdd74c1fbd06202905bbd3f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPropertiesListedInLobbyProperty.cs using Guid(3597ecc77cdd74c1fbd06202905bbd3f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '248a30f08683b90a699fa7f23227f5d7') in 0.015838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs
+  artifactKey: Guid(421c323e36c065045b2c44e16a184a9a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs using Guid(421c323e36c065045b2c44e16a184a9a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '821d46651f845338aa7575def67c0413') in 0.011461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_1.FBX
+  artifactKey: Guid(1ec55baed88ac07429a52bee4c519015) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_1.FBX using Guid(1ec55baed88ac07429a52bee4c519015) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a04fd472202708d7806d4c3c284106cc') in 0.052352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/LayoutElementMatchSize.cs
+  artifactKey: Guid(3ec618017b87f49b4a2bfc6a0a0bff3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/LayoutElementMatchSize.cs using Guid(3ec618017b87f49b4a2bfc6a0a0bff3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd670714d57ed263ff87df359cdbb1002') in 0.014731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_33.asset
+  artifactKey: Guid(1fe859b67608b3d439701e3adbac7287) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/Tilesheet/terrainTiles_default_33.asset using Guid(1fe859b67608b3d439701e3adbac7287) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e547486807a6cd677eb941650eee95ee') in 0.021535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/LoaderAnime.cs
+  artifactKey: Guid(df9597db7c55c44e885b8f74697d5ba0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/LoaderAnime.cs using Guid(df9597db7c55c44e885b8f74697d5ba0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7f0de81e79c5a544cf0beed7025eaab2') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/FriendListCell.cs
+  artifactKey: Guid(b7be18b2f537f4428b8e4cd92373a1e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/FriendListCell.cs using Guid(b7be18b2f537f4428b8e4cd92373a1e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3f474e895bd7f955362fd15f453bcec7') in 0.010238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '077c01d7d220be411f204f145ab7af11') in 0.016034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadSplitE.png
+  artifactKey: Guid(7382cb61df0e99a47977f32d077fc740) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadSplitE.png using Guid(7382cb61df0e99a47977f32d077fc740) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e2def05a75f6207600ec5c2e4c925674') in 0.059335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tracksSmall.png
+  artifactKey: Guid(f3fcdbc2d06d36c4db3a0b6cd9803b49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tracksSmall.png using Guid(f3fcdbc2d06d36c4db3a0b6cd9803b49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1f3db9639af1861e25246a02c578195c') in 0.017478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scripts/PickUpManager.cs
+  artifactKey: Guid(c7c7fd7850561b640b0e96908fca5050) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/PickUpManager.cs using Guid(c7c7fd7850561b640b0e96908fca5050) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd0bac282560d90036a6edc98864950ce') in 0.010108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd902f060c75dbf76151d0a2ac9285b71') in 0.012783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadTransitionW_dirt.png
+  artifactKey: Guid(2a80599985b03b247a96d1e5ba2c1f37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/tileGrass_roadTransitionW_dirt.png using Guid(2a80599985b03b247a96d1e5ba2c1f37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0ff0df2397f045b35cef7cb9a006cae1') in 0.024170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif
+  artifactKey: Guid(88217866776ce4c49944ecb360a5c6ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif using Guid(88217866776ce4c49944ecb360a5c6ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cabac67fe7699bf692efdccb102799bd') in 0.015473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Import/Main Sprites/PNG/Retina/treeGreen_large.png
+  artifactKey: Guid(22890615d1fdebd47a9690c99fca1e32) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Import/Main Sprites/PNG/Retina/treeGreen_large.png using Guid(22890615d1fdebd47a9690c99fca1e32) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '39fbb113836b6232ed585eb98574fa18') in 0.064634 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.2 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4179.
+Total: 3.989600 ms (FindLiveObjects: 0.343100 ms CreateObjectMapping: 0.279600 ms MarkObjects: 3.343100 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.2 MB.
+System memory in use after: 140.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4184.
+Total: 5.389000 ms (FindLiveObjects: 0.640200 ms CreateObjectMapping: 0.687200 ms MarkObjects: 4.031500 ms  DeleteObjects: 0.028500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4189.
+Total: 5.921500 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.603500 ms MarkObjects: 4.662200 ms  DeleteObjects: 0.028300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2658.579943 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(68b1429849edfa04faa88ed18a6fda5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(68b1429849edfa04faa88ed18a6fda5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e72b550a6b9f743458b62cfd8e96b95') in 0.087772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.411170 seconds.
+  path: Assets/Scripts/TestTank.cs
+  artifactKey: Guid(4512f8f67b5d84f4ebd71ce12b7a0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestTank.cs using Guid(4512f8f67b5d84f4ebd71ce12b7a0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39072e7ee3352f6a57964109cd760235') in 0.023300 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4195.
+Total: 5.695600 ms (FindLiveObjects: 0.986500 ms CreateObjectMapping: 0.639300 ms MarkObjects: 4.032600 ms  DeleteObjects: 0.035200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4200.
+Total: 3.772500 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.327500 ms MarkObjects: 2.970900 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.312586 seconds.
+  path: Assets/Scripts/TestTank.cs
+  artifactKey: Guid(4512f8f67b5d84f4ebd71ce12b7a0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestTank.cs using Guid(4512f8f67b5d84f4ebd71ce12b7a0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cb571071773275be80d32393a80bd0') in 0.020123 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.594 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4205.
+Total: 2.807100 ms (FindLiveObjects: 0.495800 ms CreateObjectMapping: 0.310900 ms MarkObjects: 1.975900 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4210.
+Total: 20.153400 ms (FindLiveObjects: 2.997400 ms CreateObjectMapping: 0.450300 ms MarkObjects: 16.669600 ms  DeleteObjects: 0.034200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 28.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4215.
+Total: 22.884700 ms (FindLiveObjects: 0.948900 ms CreateObjectMapping: 0.389800 ms MarkObjects: 21.509300 ms  DeleteObjects: 0.034700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.763085 seconds.
+  path: Assets/Resources/Tank 1.prefab
+  artifactKey: Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tank 1.prefab using Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dafbf91b4a0e9c19ad54fad4313632') in 0.844475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.550197 seconds.
+  path: Assets/Resources/Tank 1.prefab
+  artifactKey: Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tank 1.prefab using Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90771aefb510b2b58229c3cb3dc5a00f') in 0.020022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.056017 seconds.
+  path: Assets/Resources/Tank 1.prefab
+  artifactKey: Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tank 1.prefab using Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9dee4f1b5174b9ff682be6cb1476b8') in 0.017926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.218282 seconds.
+  path: Assets/Resources/Tank 1.prefab
+  artifactKey: Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tank 1.prefab using Guid(d1a9e8d580e54f2459e4297cea4d7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45a4d38eef03606f1e4df6d3d148afd') in 0.033963 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005389 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.413 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4227.
+Total: 3.912500 ms (FindLiveObjects: 0.489600 ms CreateObjectMapping: 0.364300 ms MarkObjects: 3.033200 ms  DeleteObjects: 0.024100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.066450 seconds.
+  path: Assets/Resources/Small Bullet.prefab
+  artifactKey: Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Small Bullet.prefab using Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db1993000e03acd050cc4a1e9d73364') in 0.115323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.252768 seconds.
+  path: Assets/Resources/Small Bullet.prefab
+  artifactKey: Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Small Bullet.prefab using Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9221af53e2a077b367ca714c0ffbe9d') in 0.012565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.390685 seconds.
+  path: Assets/Resources/Small Bullet.prefab
+  artifactKey: Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Small Bullet.prefab using Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f86148a897b2659bd0a67eb8bcc1b7') in 0.040851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.017093 seconds.
+  path: Assets/Resources/Small Bullet.prefab
+  artifactKey: Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Small Bullet.prefab using Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76d877b563ce50f4d36cafd264e89b4') in 0.014386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4233.
+Total: 10.589400 ms (FindLiveObjects: 4.581900 ms CreateObjectMapping: 0.500500 ms MarkObjects: 5.469400 ms  DeleteObjects: 0.035700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.447319 seconds.
+  path: Assets/Resources/Small Bullet.prefab
+  artifactKey: Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Small Bullet.prefab using Guid(0ff10d75b02c8a04e9cb8b06bd14c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ff29679f1437af384c62da849019fd') in 0.137468 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4239.
+Total: 2.769300 ms (FindLiveObjects: 0.304600 ms CreateObjectMapping: 0.240100 ms MarkObjects: 2.200800 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4244.
+Total: 3.969700 ms (FindLiveObjects: 0.606900 ms CreateObjectMapping: 0.372100 ms MarkObjects: 2.961400 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.263 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4249.
+Total: 3.363700 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.327600 ms MarkObjects: 2.547300 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.405 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4254.
+Total: 17.620000 ms (FindLiveObjects: 2.222100 ms CreateObjectMapping: 1.139900 ms MarkObjects: 14.165000 ms  DeleteObjects: 0.091100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.442 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4259.
+Total: 5.451100 ms (FindLiveObjects: 0.534800 ms CreateObjectMapping: 0.372800 ms MarkObjects: 4.468800 ms  DeleteObjects: 0.072900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4264.
+Total: 3.616300 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.262400 ms MarkObjects: 2.913200 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.230 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4269.
+Total: 141.819800 ms (FindLiveObjects: 125.278900 ms CreateObjectMapping: 1.622900 ms MarkObjects: 14.875900 ms  DeleteObjects: 0.040700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.104 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4274.
+Total: 4.234500 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.314700 ms MarkObjects: 3.160700 ms  DeleteObjects: 0.153700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

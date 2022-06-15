@@ -1,42 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-using UnityEngine.UI;
 
-public class Health : MonoBehaviour, IPunObservable
+public class Health : MonoBehaviour
 {
-    static public int lScore = 0;
-    static public int rScore = 0;
-    public bool left = false;
-    public bool right = false;
-    public int Hp = 100;
-    public Text txt;
-    public string txtScore = "";
-    PhotonView photonView;
+    [SerializeField] private int Group;
+    [SerializeField] private int Hp = 100;
+    private PhotonView photonView;
+    private RoundManager roundManager;
 
     private void Start()
     {
-        photonView = GetComponent<PhotonView>();
-        //if (photonView.IsMine == false) enabled = false;
-        lScore = 0;
-        rScore = 0;
-        txt = GameObject.Find("Score").GetComponent<Text>();
+        photonView = gameObject.GetPhotonView();
     }
 
+    public void SetRoundManager(RoundManager roundManager) => this.roundManager = roundManager;
+
+
     [PunRPC]
-    public void SetProperties(bool Left)
+    public void SetPlayerProperties(int i)
     {
-        if (Left)
-        { 
-            left = true;
-            gameObject.name = gameObject.name + " Left Team";
-        }
-        else 
-        {
-            right = true;
-            gameObject.name = gameObject.name + " Right Team";
-        }
+        Group = i;
+        gameObject.name = gameObject.name + " " + Group;
     }
 
     public void GetDamge(int Damage)
@@ -44,54 +28,19 @@ public class Health : MonoBehaviour, IPunObservable
         Hp = Hp - Damage;
         if (Hp <= 0)
         {
-
-            photonView.RPC("Death", RpcTarget.All);
-            Invoke("Spawn", 1f);
+            photonView?.RPC("Death", RpcTarget.All, Group);
+            roundManager.EndRound();
         }
     }
 
     [PunRPC]
-    public void Death()
+    public void Death(int Group)
     {
-            if (left)
-                rScore++;
-
-            if (right)
-                lScore++;
-
-        txtScore = $"Battle Score: {lScore} / {rScore}";
-        txt.text = txtScore;
-            gameObject.SetActive(false);
-    }
-
-    void Spawn()
-    {
-        photonView.RPC("Respawn", RpcTarget.All);
-    }
-
-
-    [PunRPC]
-    public void Respawn()
-    {
-        gameObject.SetActive(true);
-        Hp = 100;
-    }
-
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
-    {
-        if (stream.IsWriting)
-        {
-            stream.SendNext(Hp);
-            stream.SendNext(rScore);
-            stream.SendNext(lScore);
-            stream.SendNext(txtScore);
-        }
+        gameObject.SetActive(false);
+        if (Group == 1)
+            roundManager.LeftWin();
         else
-        {
-            Hp = (int)stream.ReceiveNext();
-            rScore = (int)stream.ReceiveNext();
-            lScore = (int)stream.ReceiveNext();
-            txtScore = (string)stream.ReceiveNext();
-        }
+            roundManager.RightWin();
+        Hp = 100;
     }
 }

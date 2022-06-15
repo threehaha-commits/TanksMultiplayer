@@ -5,40 +5,52 @@ using Photon.Pun;
 
 public class BulletController : MonoBehaviour, IPunObservable
 {
-    Rigidbody2D r2d;
-    Transform myTransform;
-    [HideInInspector] public Vector3 Pos = Vector3.zero;
-    [HideInInspector] public Quaternion Rot = Quaternion.identity;
-    PhotonView photonView;
-    public float LerpValue = 2f;
+    [SerializeField] private int Damage;
+    private float Speed = 0.05f;
+    private Rigidbody2D r2d;
+    private Transform myTransform;
+    private Vector3 Pos = Vector3.zero;
+    
+    private Quaternion Rot = Quaternion.identity;
+    private PhotonView photonView;
+    private readonly float LerpValue = 10;
 
     private void Start()
     {
-        Invoke("Death", 1.5f);
-        photonView = GetComponent<PhotonView>();
+        photonView = gameObject.GetPhotonView();
         myTransform = transform;
         r2d = GetComponent<Rigidbody2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<PhotonView>().IsMine)
-        {
-            photonView.RPC("Death", RpcTarget.All);
-            return;
-        }
+        collision.gameObject.GetComponent<Health>()?.GetDamge(Damage);
+        DeactiveBullet();
+    }
 
-        if (collision.gameObject.tag == "Player")
+    private void OnBecameInvisible()
+    {
+        DeactiveBullet();
+    }
+
+    private void DeactiveBullet()
+    {
+        if (photonView.IsMine)
         {
-            collision.gameObject.GetComponent<Health>().GetDamge(100);
-            photonView.RPC("Death", RpcTarget.All);
+            photonView?.RPC("BulletOff", RpcTarget.Others);
+            gameObject.SetActive(false);
         }
     }
 
     [PunRPC]
-    void Death()
+    private void BulletOff()
     {
         gameObject.SetActive(false);
+    }
+
+    private void FixedUpdate()
+    {
+        r2d.AddForce(transform.forward * Speed * Time.fixedDeltaTime, ForceMode2D.Impulse);
     }
 
     private void Update()

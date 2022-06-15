@@ -1,15 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.UI;
 
 public class NetworkManagerScript : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private byte MaxPlayerRoom = 4;
-    string gameVersion = "1";
-    public GameObject Player;
-    public GameObject[] buttons;
+    private byte MaxPlayerRoom = 4;
+    private string gameVersion = "1";
+    [SerializeField] private GameObject Player;
+    [SerializeField] private GameObject[] buttons;
+    [SerializeField] private Transform[] spawnPoints = new Transform[2];
+    [SerializeField] private RoundManager roundManager;
 
     private void Awake()
     {
@@ -35,19 +36,15 @@ public class NetworkManagerScript : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         buttons[0].SetActive(false);
-        buttons[1].SetActive(false);
-        float r = Random.Range(-1f, 1f);
-        GameObject player = PhotonNetwork.Instantiate(Player.name, new Vector3(r, r, 0f), Quaternion.identity);
+        GameObject player = PhotonNetwork.Instantiate(Player.name, Vector2.zero, new Quaternion(0, 0, 0, 0));
+        PhotonView playerPView = player.GetPhotonView();
         int i = PhotonNetwork.CountOfPlayersInRooms;
-        print($"i {i} i%2 {i % 2}");
-        if (i % 2 == 1)
-        {
-            player.GetComponent<PhotonView>().RPC("SetProperties", RpcTarget.AllBuffered, false);
-        }
-        else
-        {
-            player.GetComponent<PhotonView>().RPC("SetProperties", RpcTarget.AllBuffered, true);
-        }
+        i = i % 2;
+        playerPView.RPC("SetPlayerSprite", RpcTarget.AllBuffered, (i + 1));
+        playerPView.RPC("SetPlayerProperties", RpcTarget.AllBuffered, i);
+        Vector2 spawnPoint = spawnPoints[i].position;
+        player.transform.position = spawnPoint;
+        roundManager.SetPlayer();
         Destroy(gameObject);
     }
 }

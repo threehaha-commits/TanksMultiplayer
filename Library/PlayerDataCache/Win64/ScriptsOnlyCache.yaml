@@ -1,11 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BattleManager
+    - Attack
+    - BoxPosition
     - BulletController
+    - BulletImage
+    - BulletManager
+    - BulletPickUp
     - Health
+    - Lerp
+    - Move
     - NetworkManagerScript
-    - TankController
+    - Player
+    - RoundManager
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -22,6 +29,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
     - Photon.Pun.PhotonTransformView
+    - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.2D.Animation.Editor.dll:
@@ -33,7 +41,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -48,6 +55,14 @@ ScriptsOnlyBuild:
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -82,6 +97,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 54
@@ -103,61 +120,89 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 678}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1538}
     - Class: 114
-      Script: {instanceID: 1612}
+      Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 1768}
+      Script: {instanceID: 1638}
     - Class: 114
-      Script: {instanceID: 2104}
+      Script: {instanceID: 1794}
     - Class: 114
-      Script: {instanceID: 2724}
+      Script: {instanceID: 1898}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2242}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 2432}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 2550}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 4116}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 4292}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 4490}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 5476}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 5504}
+      Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 4334}
     - Class: 114
-      Script: {instanceID: 6014}
+      Script: {instanceID: 4494}
     - Class: 114
-      Script: {instanceID: 6224}
+      Script: {instanceID: 4534}
     - Class: 114
-      Script: {instanceID: 6764}
+      Script: {instanceID: 4540}
     - Class: 114
-      Script: {instanceID: 6772}
+      Script: {instanceID: 4798}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 5124}
     - Class: 114
-      Script: {instanceID: 7434}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 8006}
+      Script: {instanceID: 5552}
     - Class: 114
-      Script: {instanceID: 8414}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 8552}
+      Script: {instanceID: 5740}
     - Class: 114
-      Script: {instanceID: 8900}
+      Script: {instanceID: 5842}
+    - Class: 114
+      Script: {instanceID: 6020}
+    - Class: 114
+      Script: {instanceID: 6068}
+    - Class: 114
+      Script: {instanceID: 6278}
+    - Class: 114
+      Script: {instanceID: 6460}
+    - Class: 114
+      Script: {instanceID: 6726}
+    - Class: 114
+      Script: {instanceID: 6826}
+    - Class: 114
+      Script: {instanceID: 6834}
+    - Class: 114
+      Script: {instanceID: 6950}
+    - Class: 114
+      Script: {instanceID: 7502}
+    - Class: 114
+      Script: {instanceID: 8074}
+    - Class: 114
+      Script: {instanceID: 8482}
+    - Class: 114
+      Script: {instanceID: 8620}
+    - Class: 114
+      Script: {instanceID: 8968}
+    - Class: 114
+      Script: {instanceID: 33794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,6 +234,14 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -356,12 +409,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BattleManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
@@ -433,6 +480,12 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsOpenToggle
   - hash:
       serializedVersion: 2
+      Hash: fa531fce68ce90fd50978c416d845290
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: cfdd0010efd7b54c2b7512656dbc9119
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -457,6 +510,12 @@ ScriptsOnlyBuild:
     className: PlayerNumbering
   - hash:
       serializedVersion: 2
+      Hash: 5d96ee26df7afd66035bfb69ecb2cd1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Attack
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -479,6 +538,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Lerp
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -835,6 +900,12 @@ ScriptsOnlyBuild:
     className: PlayerAnimatorManager
   - hash:
       serializedVersion: 2
+      Hash: b6588f0dcde3587a5e0c67836d64095a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxPosition
+  - hash:
+      serializedVersion: 2
       Hash: 74c875e0f15c48e0a55f06093aa93e15
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -967,10 +1038,16 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: aca6b486ff9466dfd8fbda3d3a93c671
+      Hash: 03a9fb1f7042bae0775a124c2dfc1bd3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NetworkManagerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 588970b7e3aeede3e4552ce269f2b1f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Move
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1057,7 +1134,7 @@ ScriptsOnlyBuild:
     className: ThirdPersonUserControl
   - hash:
       serializedVersion: 2
-      Hash: 8a27b6a72a891364e9ff1163125f4725
+      Hash: a0f2f8c0161d3817a14eb08ead49e0e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Health
@@ -1219,6 +1296,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ParrelSync.Example
+    className: CustomArgumentExample
+  - hash:
+      serializedVersion: 2
       Hash: 2163458cae41cb1735c8b06fc34a9582
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1229,6 +1312,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CountOfPlayersInRoomProperty
+  - hash:
+      serializedVersion: 2
+      Hash: b8da10052aa2ad0ee68c26743d884a74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoundManager
   - hash:
       serializedVersion: 2
       Hash: d1f07c9e64b7817e6271f80bb03de25f
@@ -1255,7 +1344,7 @@ ScriptsOnlyBuild:
     className: IngameControlPanel
   - hash:
       serializedVersion: 2
-      Hash: 8d98d15d99c7a0a6df94ade1378b4b0f
+      Hash: c0f450aeef10d836bf503db64f76184a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BulletController
@@ -1393,6 +1482,12 @@ ScriptsOnlyBuild:
     className: SupportLogger
   - hash:
       serializedVersion: 2
+      Hash: bdc01fb992e02a694b3329cce911c3e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletManager
+  - hash:
+      serializedVersion: 2
       Hash: 4c0ebd9e77f5bc0558d19d8313e54bb9
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer.Utils
@@ -1447,6 +1542,12 @@ ScriptsOnlyBuild:
     className: PlayerNameInputField
   - hash:
       serializedVersion: 2
+      Hash: 1c2511744c29522910464d1ff6818eb9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletPickUp
+  - hash:
+      serializedVersion: 2
       Hash: 349d08daa6108b9a28f8c38fd40ce96f
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
@@ -1469,12 +1570,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: PingProperty
-  - hash:
-      serializedVersion: 2
-      Hash: fd43f0f0b7a5affcf35a2fa2408be30d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TankController
   - hash:
       serializedVersion: 2
       Hash: 5e8a01a14cef8c5fb6866e39e13545df
@@ -1997,7 +2092,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PickUpManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletImage
   platform: 19
   scenePathNames:
   - Assets/Scenes/BattleScene.unity
-  playerPath: C:/Users/79181/Desktop/BuildedMultiplayerProjects/Tanks of War.exe
+  playerPath: D:/Finished Projects/Battle Tanks/Tanks of War.exe
